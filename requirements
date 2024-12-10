@@ -6,9 +6,7 @@ matplotlib
 wordcloud
 beautifulsoup4
 requests
-goose3
 selenium
-google-generativeai
 stable-baselines3
 gym
 shimmy>=2.0
