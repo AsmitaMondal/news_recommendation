@@ -6,7 +6,7 @@ This project is a cutting-edge News Recommendation System that brings you real-t
 ## Step 1: Clone the Repository
 Clone the project repository to your local machine using the following command:
 ```
-git clone <repository_url>
+git clone https://github.com/AsmitaMondal/news_recommendation.git
 ```
 
 ## Step 2: Install Dependencies
