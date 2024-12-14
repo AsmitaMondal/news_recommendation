@@ -751,4 +751,4 @@ elif page == "Recommendation":
                 del st.session_state[key]
             
             # Rerun the app to reset
-            st.experimental_rerun()
+            st.rerun()
