@@ -323,7 +323,7 @@ with st.spinner("Gettin Things Ready For You 🪄🪄 ..."):
     category_data = preload_data()
 
 # Display an image in the sidebar
-st.sidebar.image("images/about2.jpg", use_column_width=True)
+st.sidebar.image("images/about2.jpg", use_container_width=True)
 
 # Sidebar title
 st.sidebar.title("Navigation")
