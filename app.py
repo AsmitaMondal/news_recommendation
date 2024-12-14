@@ -674,7 +674,7 @@ elif page == "Recommendation":
             })
         
         # Rerun to refresh
-        st.experimental_rerun()
+        st.rerun()
     
     # Display total score
     st.write(f"### Total Score: {st.session_state.total_score}")
