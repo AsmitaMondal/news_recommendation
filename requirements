@@ -14,3 +14,4 @@ transformers
 wordcloud
 nltk
 streamlit-lottie
+python3-bs4
