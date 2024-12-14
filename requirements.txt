@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+streamlit
+matplotlib
+wordcloud
+beautifulsoup4
+requests
+selenium
+stable-baselines3
+gym
+shimmy>=2.0
+transformers
+wordcloud
+nltk
+streamlit-lottie
+beautifulsoup4==4.12.2
