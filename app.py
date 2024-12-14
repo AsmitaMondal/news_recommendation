@@ -581,10 +581,13 @@ elif page == "Recommendation":
                 st.session_state[f'elapsed_time_{idx}'] = None
             if f'timer_calculated_{idx}' not in st.session_state:
                 st.session_state[f'timer_calculated_{idx}'] = False  # To avoid recalculation
-
             if st.button(f"📰 Read Full Article {idx + 1}", key=f"button_{idx}"):
                 st.session_state[f'start_time_{idx}'] = time.time()
-                webbrowser.open(row['link'])
+                st.markdown(f"[Click here to read full article](<{row['link']}>)", unsafe_allow_html=True)
+                
+            # if st.button(f"📰 Read Full Article {idx + 1}", key=f"button_{idx}"):
+            #     st.session_state[f'start_time_{idx}'] = time.time()
+            #     webbrowser.open(row['link'])
 
             col1, col2 = st.columns(2)
 
